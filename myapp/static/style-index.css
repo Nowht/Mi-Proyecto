@@ -1,0 +1,33 @@
+.navbar-custom {
+    background-color: #f8f9fa; /* Cambia el color de fondo si lo deseas */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #000000; /* Color del texto */
+}
+
+/* Cambiar el color del texto al pasar el ratón sobre los enlaces */
+.navbar-custom .nav-link:hover {
+    color: #ff8000; /* Color del texto en hover */
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-toggler {
+    border: none; /* Elimina el borde del botón si lo deseas */
+    background-color: transparent; /* Asegúrate de que el fondo no sea transparente */
+}
+
+.navbar-toggler-icon {
+    background-color: transparent; /* Color del ícono del botón de desplegar menú */
+    border-radius: 4px; /* Redondear el ícono si lo deseas */
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; /* Elimina el efecto de sombra al hacer foco */
+}
+
